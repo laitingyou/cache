@@ -1,11 +1,4 @@
-<<<<<<< HEAD
 {
   "cache_name": "test2",
   "expire_default": 1000
 }
-=======
-{
-  "cache_name": "test2",
-  "expire_default": 1000
-}
->>>>>>> 6bfe6053d1ab5e3c4ccfd3d76811a2a19d95351d

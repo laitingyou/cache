@@ -4,4 +4,3 @@
 npm i -D ltycache
 ```
 ![avatar](image/test.png)
-
