@@ -1,5 +1,5 @@
-import webCache from 'ltycache'
-const cache = new webCache()
+import {cache} from 'ltycache'
+const cache = new cache()
 // 异步
 cache.setItem('name', 'laitingyou', 2000).then(res=>{
   console.log(res)
