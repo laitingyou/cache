@@ -1,7 +1,7 @@
 {
-  "name": "webcache",
-  "version": "1.0.0",
-  "description": "",
+  "name": "ltycache",
+  "version": "1.0.2",
+  "description": "A browser cache based on local storage.",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +9,11 @@
     "server": "webpack-dev-server --config=config/webpack.config.js",
     "build": "webpack --config=config/webpack.config.js --env=production"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/laitingyou/cache"
+  },
+  "author": "laitingyou@outlook.com",
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.4.4",
