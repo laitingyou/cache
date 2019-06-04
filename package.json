@@ -9,6 +9,10 @@
     "server": "webpack-dev-server --config=config/webpack.config.js",
     "build": "webpack --config=config/webpack.config.js --env=production"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/laitingyou/cache"
+  },
   "author": "laitingyou@outlook.com",
   "license": "ISC",
   "devDependencies": {
@@ -33,9 +37,5 @@
   "dependencies": {
     "@babel/polyfill": "^7.4.4",
     "@babel/runtime": "^7.4.5"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/laitingyou/cache"
   }
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "extends": "eslint:recommended",
   "rules": {
@@ -7,3 +8,14 @@
     "browser": true
   }
 }
+=======
+{
+  "extends": "eslint:recommended",
+  "rules": {
+      "no-console": 0
+  },
+  "env": {
+    "browser": true
+  }
+}
+>>>>>>> 6bfe6053d1ab5e3c4ccfd3d76811a2a19d95351d
