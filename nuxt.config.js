@@ -1,3 +1,8 @@
+require("dotenv").config();
+const appJson = require("./app.json");
+const ossPath = `http://serverless-platform.deepexi.top/applications/${appJson.appKey}`;
+let publicPath = process.env.BUILD_TYPE === "production" ? ossPath : "/_nuxt/";
+// console.log(process.env)
 module.exports = {
   mode: "spa",
   /*
@@ -52,6 +57,7 @@ module.exports = {
    */
   build: {
     transpile: [/^element-ui/],
+    publicPath,
     /*
      ** You can extend webpack config here
      */
