@@ -1,19 +1,19 @@
 {
     "isAutoCommit": 0,
-    "id": 71,
+    "id": 73,
     "dr": 0,
     "tenantId": "2ba56b7c3f8c49598207d2a9fe54970b",
-    "createdAt": "2019-08-31T11:13:15.452Z",
-    "updatedAt": "2019-08-31T11:13:15.452Z",
+    "createdAt": "2019-08-31T11:54:01.554Z",
+    "updatedAt": "2019-08-31T11:54:01.554Z",
     "createdBy": "谢添",
     "updatedBy": "谢添",
     "projectId": 39,
-    "name": "aaaa",
+    "name": "oooo",
     "framework": "vue",
     "platform": "pc",
-    "description": "asdasd",
+    "description": "",
     "type": 1,
-    "appKey": "P7eAnvinyQm8ZDuIumHWIZWNERCJnl61",
-    "appSecret": "wrSvqBmNIzIeK9zQ4YaEVTPwJVo3AHez",
-    "gitId": 95
+    "appKey": "6QFCn05lebRpDg32zASTuCjHjxF4gpW4",
+    "appSecret": "6y6UGhkPpFnsBvhk46MLmaYRfHz4NWaP",
+    "gitId": 97
 }
