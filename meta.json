@@ -1,0 +1,16 @@
+{
+	"name": "template-blank-pc",
+	"version": "1.0.0",
+	"title": "231",
+	"description": "123",
+	"type": "block",
+	"platform": [
+		"PC"
+	],
+	"homePage": "",
+	"category": [],
+	"screenshots": [],
+	"path": "blocks/template-blank-pc",
+	"origin": "http://gitlab.deepexi.top/deepexi/deepexi-serverless/serverless-material.git",
+	"hash": "4d5c3600077947ce2c9d3d78392da5ac"
+}

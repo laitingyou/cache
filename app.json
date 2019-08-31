@@ -1,20 +1,11 @@
 {
     "projectId": 39,
-    "createTemplate": {
-        "sourceId": 24,
-        "materialHash": "a05ee3c593d9ad4e916f65d48452f1ca"
-    },
+    "createTemplate": null,
     "git": {
         "url": "https://github.com/laitingyou/cache.git",
         "isPrivate": false
     },
-    "name": "asdsasasdasda",
-    "description": "asdas",
-    "platform": "miniapp",
-    "deployConfig": {
-        "isAutoCommit": false,
-        "branch": "master",
-        "buildCmd": "npm run build",
-        "envs": "{\"projectName\":\"asdsasasdasda\"}"
-    }
+    "name": "wqewqe",
+    "description": "qweqw",
+    "platform": "pc"
 }
