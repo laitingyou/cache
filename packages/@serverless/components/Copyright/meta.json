@@ -1,0 +1,21 @@
+{
+    "name": "copyright",
+    "version": "1.0.0",
+    "title": "版权所有组件",
+    "description": "版权所有组件",
+    "type": "component",
+    "platform": [
+        "PC"
+    ],
+    "homePage": "/materials/24/dist5d01f91cc357f7b83fcc22e182eb561d/index.html",
+    "category": [
+        "布局",
+        "信息展示"
+    ],
+    "screenshots": [
+        "/screenshots/24/5d01f91cc357f7b83fcc22e182eb561d/1566995649909.png"
+    ],
+    "path": "components/Copyright",
+    "origin": "http://gitlab.deepexi.top/deepexi/deepexi-serverless/serverless-material.git",
+    "hash": "5d01f91cc357f7b83fcc22e182eb561d"
+}

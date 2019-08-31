@@ -1,0 +1,53 @@
+{
+    "name": "nuxt-element-dashboard",
+    "version": "2.3.4",
+    "description": "Nuxt2 + element UI project",
+    "author": "levy <levy9527@qq.com>",
+    "license": "MIT",
+    "keywords": [
+        "vue",
+        "element-ui",
+        "nuxt",
+        "dashboard"
+    ],
+    "engines": {
+        "npm": ">= 5.2.0"
+    },
+    "scripts": {
+        "dev": "vue-cli-service serve",
+        "build": "vue-cli-service build"
+    },
+    "dependencies": {
+        "dayjs": "^1.7.4",
+        "dotenv": "^6.0.0",
+        "el-data-table": "^1.1.1",
+        "element-ui": "2.4.11",
+        "js-cookie": "^2.2.0",
+        "less": "^3.9.0",
+        "less-loader": "^4.1.0",
+        "vue": "^2.6.10"
+    },
+    "devDependencies": {
+        "@nuxtjs/style-resources": "^0.1.2",
+        "@vue/cli-service": "^3.10.0",
+        "vue-template-compiler": "^2.6.10",
+        "sass-resources-loader": "^2.0.1"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "lint-staged",
+            "post-commit": "git update-index --again"
+        }
+    },
+    "lint-staged": {
+        "*.js": [
+            "prettier --write",
+            "git add"
+        ],
+        "*.vue": [
+            "prettier --write",
+            "stylelint --fix",
+            "git add"
+        ]
+    }
+}

@@ -25,15 +25,17 @@
         </a>
       </div>
     </div>
+    <Copyright></Copyright>
   </div>
 </template>
 
 <script>
 import Logo from '~/components/Logo.vue'
-
+import Copyright from '@serverless-copyright'
 export default {
   components: {
-    Logo
+    Logo,
+    Copyright
   }
 }
 </script>

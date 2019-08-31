@@ -38,7 +38,7 @@ module.exports = {
    */
   buildModules: [
     // Doc: https://github.com/nuxt-community/eslint-module
-    "@nuxtjs/eslint-module"
+    // "@nuxtjs/eslint-module"
   ],
   /*
    ** Nuxt.js modules
@@ -62,6 +62,10 @@ module.exports = {
      ** You can extend webpack config here
      */
     extend(config, ctx) {
+      require("./.map.js").init(config);
+      require("./.map.js").init(config);
+      require("./.map.js").init(config);
+      require("./.map.js").init(config);
       require("./.map.js").init(config);
     }
   }
