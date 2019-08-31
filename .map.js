@@ -1,5 +1,5 @@
 const path = require('path');
-const { alias } = require('./meta.json');
+const { alias } = require('./app.json');
 const addAlias = function (config) {
     Object.keys(alias || {}).map(index => {
         config.resolve.alias[index] = path.resolve(__dirname, alias[index]);

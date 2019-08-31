@@ -1,19 +1,17 @@
 {
-    "isAutoCommit": 0,
-    "id": 75,
-    "dr": 0,
-    "tenantId": "2ba56b7c3f8c49598207d2a9fe54970b",
-    "createdAt": "2019-08-31T12:00:12.683Z",
-    "updatedAt": "2019-08-31T12:00:12.683Z",
-    "createdBy": "谢添",
+    "id": 85,
     "updatedBy": "谢添",
     "projectId": 39,
-    "name": "aaaaa",
+    "name": "qqqqq",
     "framework": "vue",
     "platform": "pc",
-    "description": "asdasd",
-    "type": 1,
-    "appKey": "R4t9jNeRHg72kmPlHHYdcm4WswPAjm5C",
-    "appSecret": "vpGztJTETD0LNFPniG8szJ2XJUoblThc",
-    "gitId": 99
+    "description": "wewrre",
+    "appKey": "uwvLQu2g8mzkFxBohhEvFL01whWlzSQO",
+    "appSecret": "U8O4gQvk9LYsp7QFaXHng31oDrBEc6VN",
+    "git": {
+        "url": "https://github.com/laitingyou/cache.git",
+        "isPrivate": false
+    },
+    "alias": {},
+    "dependencies": {}
 }
