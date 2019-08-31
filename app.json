@@ -1,11 +1,19 @@
 {
-    "projectId": 39,
-    "createTemplate": null,
-    "git": {
-        "url": "https://github.com/laitingyou/cache.git",
-        "isPrivate": false
-    },
-    "name": "qweqweqeq",
-    "description": "tytuy",
-    "platform": "pc"
+    "isAutoCommit": 0,
+    "id": 68,
+    "dr": 0,
+    "tenantId": "2ba56b7c3f8c49598207d2a9fe54970b",
+    "createdAt": "2019-08-31T10:35:20.972Z",
+    "updatedAt": "2019-08-31T10:35:20.972Z",
+    "createdBy": "谢添",
+    "updatedBy": "谢添",
+    "projectId": 40,
+    "name": "wwww",
+    "framework": "vue",
+    "platform": "pc",
+    "description": "123123",
+    "type": 1,
+    "appKey": "6GHfmNEivcdwHxb5rEWm39fc8msTXkRt",
+    "appSecret": "TcXD87U0KDeTOP3cDB9zqZnsEREWTUDz",
+    "gitId": 92
 }
