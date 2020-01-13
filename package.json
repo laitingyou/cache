@@ -1,32 +1,40 @@
 {
-    "name": "qqqqq",
-    "version": "1.0.0",
-    "private": true,
-    "description": "PC空白模板",
-    "author": "Rihel",
-    "scripts": {
-        "build": "nuxt build",
-        "dev": "nuxt",
-        "generate": "nuxt generate",
-        "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-        "start": "nuxt start"
-    },
-    "dependencies": {
-        "@nuxtjs/axios": "^5.3.6",
-        "@vue-materials/basic-container": "^1.0.0",
-        "core-js": "^2.6.5",
-        "dotenv": "^8.1.0",
-        "echarts": "^4.2.1",
-        "element-ui": "^2.4.11",
-        "nuxt": "^2.0.0",
-        "v-charts": "^1.19.0",
-        "vue": "^2.6.10"
-    },
-    "devDependencies": {
-        "@nuxtjs/eslint-config": "^1.0.1",
-        "@nuxtjs/eslint-module": "^1.0.0",
-        "babel-eslint": "^10.0.1",
-        "eslint": "^6.1.0",
-        "eslint-plugin-nuxt": ">=0.4.2"
-    }
+  "name": "ltycache",
+  "version": "1.0.8",
+  "description": "A browser cache based on local storage.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --config=config/webpack.config.js --watch",
+    "server": "webpack-dev-server --config=config/webpack.config.js",
+    "build": "webpack --config=config/webpack.config.js --env=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/laitingyou/cache"
+  },
+  "author": "laitingyou@outlook.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/helpers": "^7.4.4",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-transform-modules-umd": "^7.2.0",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/runtime": "^7.4.5",
+    "babel-loader": "^8.0.6",
+    "gulp": "^4.0.2",
+    "gulp-coffee": "^3.0.3",
+    "gulp-plumber": "^1.2.1",
+    "json-loader": "^0.5.7",
+    "rollup": "^1.13.0",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.5.0",
+    "yargs": "^13.2.4"
+  },
+  "dependencies": {}
 }
