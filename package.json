@@ -1,6 +1,6 @@
 {
   "name": "ltycache",
-  "version": "1.0.9",
+  "version": "1.0.11",
   "description": "A browser cache based on local storage.",
   "main": "dist/index.js",
   "scripts": {
@@ -22,7 +22,10 @@
     "browserCache",
     "storage"
   ],
-  "author": "laitingyou@outlook.com",
+  "author": {
+    "name": "Tingyou Lai",
+    "email": "laitingyou@outlook.com"
+  },
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.4.4",
