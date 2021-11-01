@@ -1,8 +1,8 @@
 import Handle from './Handle'
 class WebCache extends Handle{
 
-  constructor (){
-    super()
+  constructor (option){
+    super(option)
   }
 
   /**

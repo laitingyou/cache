@@ -2,8 +2,8 @@ import Utils from './Utils'
 import config from '@/cache.config'
 class Handle extends Utils{
 
-  constructor (){
-    super()
+  constructor (option){
+    super(option)
     let webcache_timesheet = this.getStorage(config.cache_name)
     this.timeSheet = this.parse(webcache_timesheet) || {}
   }

@@ -1,4 +1,11 @@
 class Utils {
+
+  constructor (option){
+    this['setItem'] = option.setSyncFn || window.localStorage.setItem
+    this['getItem'] = option.getSyncFn || window.localStorage.getItem
+    this['removeItem'] = option.rmFnSync || window.localStorage.removeItem
+  }
+
   parse(value){
     return JSON.parse(value)
   }
@@ -8,18 +15,18 @@ class Utils {
   }
 
   getStorage(key){
-    return window.localStorage.getItem(key)
+    return this['getItem'](key)
   }
 
   setStorage(key, value){
-    window.localStorage.setItem(key, this.stringify(value))
+    this['setItem'](key, this.stringify(value))
     return value
   }
 
   isExpire(key, expireTime){
     let currentTime = new Date()*1
     if(currentTime > expireTime){
-      window.localStorage.removeItem(key)
+      this['removeItem'](key)
       return true
     }
     return false
